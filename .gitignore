@@ -1,0 +1,10 @@
+# git ignore file
+Bank/bin
+Bank/debug
+Bank/bin/*
+Bank/debug/*
+*.suo
+Bank.UnitTest/bin
+Bank.UnitTest/debug
+Bank.UnitTest/bin/*
+Bank.UnitTest/debug/*
