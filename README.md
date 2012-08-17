@@ -9,7 +9,9 @@ De acuerdo a (Wikipedia, 2012), una prueba es una investigación conducida para 
 
 1.3	¿Qué es una prueba unitaria?
 Se refiere a las pruebas que verifican la funcionalidad de una sección específica de código, usualmente al nivel de función. En un ambiente orientado a objetos, esto es usualmente al nivel de clase, y las pruebas unitarias mínimas incluyen los constructores y destructores de objetos. Cabe hacer notar que una prueba unitaria, para ser efectiva, debe hacerse de manera aislada, esto implica que no debe de depender ni verse afectado por ninguna otra pieza de código más que la que se encuentra bajo prueba.
+	
 	En el contexto de pruebas unitarias escritas por un programador con una herramienta como NUnit, una prueba unitaria es una pieza código que ejercita una pequeña, específica área de funcionalidad del código siendo probado. Usualmente una prueba unitaria ejercita un método particular en un contexto particular. Por ejemplo, tal vez se agregue un valor grande al final de una lista, o se borre un patrón de caracteres de un string y luego confirmar que estos hayan sido borrados. (Hunt & thomas, 2003)
+	
 	Las pruebas unitarias se realizan para probar que una pieza de código hace lo que un programador cree que debería hacer. De otra manera, cualquier resultado correcto sería coincidencia,  esto se le llama: “programación por coincidencia” (Hunt & Thomas, 1999).
 
 1.4	¿Qué es una prueba de integración?
