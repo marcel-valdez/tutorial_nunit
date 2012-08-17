@@ -1,0 +1,8 @@
+C:\Users\marcel\Documents\proyects\TutorialNUnit\Bank\bin\Debug\Bank.dll
+C:\Users\marcel\Documents\proyects\TutorialNUnit\Bank\bin\Debug\Bank.pdb
+C:\Users\marcel\Documents\proyects\TutorialNUnit\Bank\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\marcel\Documents\proyects\TutorialNUnit\Bank\obj\x86\Debug\Bank.Properties.Resources.resources
+C:\Users\marcel\Documents\proyects\TutorialNUnit\Bank\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\marcel\Documents\proyects\TutorialNUnit\Bank\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\marcel\Documents\proyects\TutorialNUnit\Bank\obj\x86\Debug\Bank.dll
+C:\Users\marcel\Documents\proyects\TutorialNUnit\Bank\obj\x86\Debug\Bank.pdb

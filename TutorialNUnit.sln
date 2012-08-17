@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{E52537C1-0351-4B4B-A1A7-F5F1C38F4E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.UnitTest", "Bank.UnitTest\Bank.UnitTest.csproj", "{AFAA4B8F-7B5F-4F45-990C-B4D161A9B06C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E52537C1-0351-4B4B-A1A7-F5F1C38F4E9F}.Debug|x86.ActiveCfg = Debug|x86
+		{E52537C1-0351-4B4B-A1A7-F5F1C38F4E9F}.Debug|x86.Build.0 = Debug|x86
+		{E52537C1-0351-4B4B-A1A7-F5F1C38F4E9F}.Release|x86.ActiveCfg = Release|x86
+		{E52537C1-0351-4B4B-A1A7-F5F1C38F4E9F}.Release|x86.Build.0 = Release|x86
+		{AFAA4B8F-7B5F-4F45-990C-B4D161A9B06C}.Debug|x86.ActiveCfg = Debug|x86
+		{AFAA4B8F-7B5F-4F45-990C-B4D161A9B06C}.Debug|x86.Build.0 = Debug|x86
+		{AFAA4B8F-7B5F-4F45-990C-B4D161A9B06C}.Release|x86.ActiveCfg = Release|x86
+		{AFAA4B8F-7B5F-4F45-990C-B4D161A9B06C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
