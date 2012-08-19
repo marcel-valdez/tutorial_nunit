@@ -19,7 +19,7 @@ Es cualquier tipo de prueba de software que busca verificar las interfaces entre
 
 1.3. ¿Por qué hacer pruebas? 
 Razones para hacer pruebas:
-- En un estudio conducido por la NIST en el 2002, encontró que los defectos de software cuestan $59.5 billones de dólares a los estados unidos de América. Más del 33% de este costo se pudo haber evitado y se hubieran hecho mejores pruebas de software
+- En un estudio conducido por la NIST en el 2002, encontró que los defectos de software cuestan $59.5 billones de dólares a los estados unidos de América. Más del 33% de este costo se pudo haber evitado si se hubieran hecho mejores pruebas de software
 - Se sabe que conforme más temprano se encuentre un error, más barato es arreglarlo. Como se puede observar en la tabla a continuación, un defecto que se presente en la construcción de software, que es encontrado después del lanzamiento del software, puede costar %2500 de lo que hubiera costado arreglarlo en construcción.
 1 Costo de arreglas un defecto, acorde al momento que se presenta.
  
