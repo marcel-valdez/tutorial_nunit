@@ -33,10 +33,10 @@
             source.Deposit(100m);
             Account destination = new Account();
             destination.Deposit(50m);
-            
-            Action invalidTransfer = () => source.TransferFunds(destination, 101m);
 
-            Assert.Throws(typeof(InsufficientFundsException), invalidTransfer);
+            TestDelegate invalidTransfer = () => source.TransferFunds(destination, 101m);
+
+            Assert.Throws<InsufficientFundsException>(invalidTransfer);
             Assert.That(source.Balance, Is.EqualTo(100m));
             Assert.That(destination.Balance, Is.EqualTo(50m));
         }

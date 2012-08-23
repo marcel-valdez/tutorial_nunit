@@ -18,6 +18,11 @@
 
         public void TransferFunds(Account destination, decimal amount)
         {
+            if(this.balance < amount)
+            {
+                throw new InsufficientFundsException("A ${0:0.00} transfer was requested, but the source account did not have enough balance.");
+            }
+
             this.balance -= amount;
             destination.balance += amount;
         }
