@@ -43,11 +43,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -61,6 +57,12 @@
     <None Include="NUnit\nunit.util.dll" />
     <None Include="NUnit\nunit.core.interfaces.dll" />
     <None Include="NUnit\nunit.core.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bank\Bank.csproj">
+      <Project>{E52537C1-0351-4B4B-A1A7-F5F1C38F4E9F}</Project>
+      <Name>Bank</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
