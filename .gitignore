@@ -1,15 +1,10 @@
 # git ignore file
-Bank/bin
-Bank/debug
-Bank/obj
-Bank/bin/*
-Bank/debug/*
-Bank/obj/*
-TutorialNUnit.suo
-Bank.UnitTest/bin
-Bank.UnitTest/debug
-Bank.UnitTest/obj
-Bank.UnitTest/bin/*
-Bank.UnitTest/debug/*
-Bank.UnitTest/obj/*
+Bank/bin/
+Bank/obj/
+Bank/bin/**
+Bank/obj/**
+Bank.UnitTest/bin/
+Bank.UnitTest/obj/
+Bank.UnitTest/bin/**
+Bank.UnitTest/obj/**
 *.suo

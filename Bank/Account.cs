@@ -18,7 +18,8 @@
 
         public void TransferFunds(Account destination, decimal amount)
         {
-            throw new NotImplementedException();
+            this.balance -= amount;
+            destination.balance += amount;
         }
 
         public decimal Balance
