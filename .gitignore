@@ -12,3 +12,4 @@ Bank.UnitTest/obj
 Bank.UnitTest/bin/*
 Bank.UnitTest/debug/*
 Bank.UnitTest/obj/*
+*.suo
