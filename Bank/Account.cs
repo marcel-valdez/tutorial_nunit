@@ -4,35 +4,32 @@
 
     public class Account
     {
-        private decimal balance;
 
-        public void Deposit(decimal amount)
+        public virtual void Deposit(decimal amount)
         {
-            balance += amount;
+            Balance += amount;
         }
 
-        public void Withdraw(decimal amount)
+        public virtual void Withdraw(decimal amount)
         {
-            balance -= amount;
+            Balance -= amount;
         }
 
-        public void TransferFunds(Account destination, decimal amount)
+        public virtual void TransferFunds(Account destination, decimal amount)
         {
-            if(this.balance < amount)
+            if(this.Balance < amount)
             {
                 throw new InsufficientFundsException("A ${0:0.00} transfer was requested, but the source account did not have enough balance.");
             }
 
-            this.balance -= amount;
-            destination.balance += amount;
+            this.Balance -= amount;
+            destination.Balance += amount;
         }
 
-        public decimal Balance
+        public virtual decimal Balance
         {
-            get
-            {
-                return balance;
-            }
+            get;
+            private set;
         }
     }
 }

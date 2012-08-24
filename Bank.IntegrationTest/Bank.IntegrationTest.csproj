@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AFAA4B8F-7B5F-4F45-990C-B4D161A9B06C}</ProjectGuid>
+    <ProjectGuid>{AF5E4680-F25F-47A4-A065-1A66CAFF3769}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Bank.UnitTest</RootNamespace>
-    <AssemblyName>Bank.UnitTest</AssemblyName>
+    <RootNamespace>Bank.IntegrationTest</RootNamespace>
+    <AssemblyName>Bank.IntegrationTest</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -34,9 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NSubstitute">
-      <HintPath>..\packages\NSubstitute.1.4.3.0\lib\NET40\NSubstitute.dll</HintPath>
-    </Reference>
     <Reference Include="nunit-console-runner">
       <HintPath>NUnit\nunit-console-runner.dll</HintPath>
     </Reference>
@@ -46,13 +43,16 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AccountTest.cs" />
-    <Compile Include="UtilitiesPaymentProcessorTest.cs" />
+    <Compile Include="UtilitiesPayment_Account_Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="NUnit\nunit-console-runner.dll" />
@@ -61,7 +61,6 @@
     <None Include="NUnit\nunit.util.dll" />
     <None Include="NUnit\nunit.core.interfaces.dll" />
     <None Include="NUnit\nunit.core.dll" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Bank\Bank.csproj">
