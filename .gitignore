@@ -9,3 +9,12 @@ Bank.UnitTest/bin/**
 Bank.UnitTest/obj/**
 *.suo
 *.suo
+Bank.UnitTest/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Bank/bin/Debug/Bank.dll
+Bank/bin/Debug/Bank.pdb
+Bank/obj/x86/Debug/Bank.csproj.FileListAbsolute.txt
+Bank/obj/x86/Debug/Bank.dll
+Bank/obj/x86/Debug/Bank.pdb
+TutorialNUnit.suo
+Bank.IntegrationTest/bin/
+Bank.IntegrationTest/obj/
